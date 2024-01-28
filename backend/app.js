@@ -23,7 +23,7 @@ app.use(cors(corsOptions));
 
 // route
 app.get("/", (req, res) => {
-  res.status(201).json({ message: "Connected to Backend!" });
+  res.status(201).json({ message: "Connected to Backend!", user: "wang" });
 });
 
 
